@@ -1,6 +1,6 @@
 'use strict';
 
-function invokeCallback(done) {
+async function invokeCallback(done) {
   process.nextTick(done);
 }
 
